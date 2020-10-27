@@ -1,0 +1,100 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.container {
+  width: 90%;
+  margin: 0 auto;
+  opacity: 0.80;
+  filter: alpha(opacity=80); /* For IE8 and earlier */
+}
+
+div.row {
+  display:inline-block;
+  align-content: center;
+  text-align: center;
+  width: 100%;
+  padding: 10px 0 30px 0;
+  background-color: #ffffff;
+  -webkit-border-radius: 6px;
+     -moz-border-radius: 6px;
+          border-radius: 6px;
+}
+
+caption.table {
+  font-size: 25px;
+  font-weight: bold;
+}
+
+table, th, td {
+  border: 1px solid black;
+  #border-collapse: collapse;
+}
+
+table {
+  border-radius: 10px;
+  border: 1px solid #000000;
+  #padding: 20px;
+  width: 90%;
+  height: 150px;
+}
+
+div table
+{
+    margin: 0 auto;
+    text-align: left;
+}
+
+table.results_table {
+  background-color: #cccccc;
+}
+
+td.heading {
+  border: 0px;
+  border-radius: 10px;
+  font-weight: bold;
+  text-align: center;
+}
+
+td.table-footer {
+ border: 0px;
+ border-radius: 10px;
+ font-weight: bold;
+ text-align: center;
+}
+
+div.csvexample {
+  width: 100%;
+  text-align: left;
+  font-style: italic;
+  font-size: smaller;
+  font-family: inherit;
+  padding-left: 500px;
+}
+
+p {
+  text-align: center;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+p.welcome-text {
+  text-align: center;
+  font-weight: bold;
+  font-size: 30px;
+}
+
+div.csverrorrow {
+  border: 0px;
+  border-radius: 10px;
+  text-align: center;
+  font-weight: bold;
+  font-size: 40px;
+  background-color: #ff0000;
+}
+p.csverror {
+  text-align: center;
+  font-weight: bold;
+  font-size: 40px;
+}

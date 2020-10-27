@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<!-- saved from url=(0032)https://geocodeme.herokuapp.com/ -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <title>SuperGeocoder</title>
+  <link rel="stylesheet" href="./static/main_13.css">
+  <link rel="icon" href="./static/assets/favicon.ico">
+</head>
+<body background="./static/assets/5.jpg">
+  <div class="container">
+    <div class="row">
+      You are here : <strong>Home</strong>
+    </div>
+    <div class="row">
+      <p class="welcome-text">Welcome to SuperGeocoder</p>
+        <div class="csverrorrow">
+          <p class="csverror">Error: The file cannot be processed.</p>
+        </div>
+
+      <p>Sorry, we cannot process your file as it doesn't contain a field named <strong>'Address'</strong> or <strong>'Add'</strong> (letter case doesn't matter)...
+      <br>
+      <p>Please modify your column name and reupload your CSV file, or click <a href="./example.html">here</a> to see an example of valid file.</p>
+    </div>
+
+    <div class="row">
+      <form action='donwload_page.html' method='POST' enctype="multipart/form-data">
+        <input name="uploaded_file" type="file"><br>  <!-- 'required' means user has to fill the input in order to submit the form. 'br' means break the line  -->
+        <button type="submit">Submit</button><br>
+      </form>
+    </div>
+
+
+  </div>
+
+</body></html>

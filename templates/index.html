@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>SuperGeocoder</title>
+
+    <link rel="stylesheet" href="./static/main_13.css">
+    <link rel="icon" href="./static/assets/favicon.ico">
+  </head>
+  <body background = './static/assets/5.jpg'>
+    <div class="container">
+      <div class="row">
+        You are here : <strong>Home</strong>
+      </div>
+      <div class="row">
+        <p class="welcome-text">Welcome to SuperGeocoder</p>
+        <p>This is an online geocoding service that converts any address column in your file to <strong>latitude</strong> and <strong>longitude</strong>. </p>
+        <p>Once uploading your file, you'll be able to view your table right away on this website, or feel free to download the converted version of your file. </p>
+        <p>In addition, <strong>mapping service</strong> is also available for each address, empowering you to view each site's exact location and investigate more insights!</p>
+        <p>However, in order for the service to process your file, there has to be a coloumn named <strong>'Address'</strong> or <strong>'Add'</strong> (<strong>letter case doesn't matter</strong>). Click <a href="./example.html">here</a> to see an example of valid file.</p>
+        <p>Currently supported file formats: <strong>csv</strong> and <strong>xlsx</strong></p>
+        <br>
+        <p>Click the <strong>'Choose file'</strong> button below to pick your file, and then click <strong>'Submit'</strong> to upload it.</p>
+        <p>Thank you for using this web service.</p>
+        <br>
+      </div>
+      <div class="row">
+        <form action='uploaded_sucessfully.html' method='POST' enctype="multipart/form-data">
+          <input name="uploaded_file" type="file" required><br>
+          <button type="submit">Submit</button><br>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>
